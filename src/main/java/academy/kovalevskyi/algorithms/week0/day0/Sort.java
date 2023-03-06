@@ -14,7 +14,7 @@ public interface Sort {
 
   default <T> T[] createSortedArray(final T[] target, final Comparator<T> comparator) {
     //todo
-    return target;
+    return null;
   }
 
   default String complexityBest() {
@@ -24,18 +24,16 @@ public interface Sort {
 
   default String complexityAverage() {
     //todo
-    return "";
+    return "O(N^2)";
   }
 
   default String complexityWorst() {
     //todo
-    return "";
+    return "O(N^2)";
   }
 
   default String spaceComplexityWorst() {
     //todo
-    return "";
+    return "O(N)";
   }
-
-
 }

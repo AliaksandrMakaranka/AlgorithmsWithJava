@@ -1,6 +1,7 @@
 package academy.kovalevskyi.algorithms.week0.day0;
 
 public class Tasks {
+
   public static boolean sameCharactersSorting(String left, String right) {
     //todo
     return false;
@@ -10,5 +11,4 @@ public class Tasks {
     //todo
     return false;
   }
-
 }
