@@ -1,6 +1,6 @@
 package academy.kovalevskyi.algorithms.week0.day1;
 
-public class Task {
+public class Tasks {
 
   public static class Node<T> {
 
