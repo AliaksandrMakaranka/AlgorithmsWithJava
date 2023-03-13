@@ -8,5 +8,4 @@ public class OptimalFinder {
     //todo
     return 0;
   }
-
 }

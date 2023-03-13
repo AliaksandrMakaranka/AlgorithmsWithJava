@@ -10,7 +10,7 @@ public interface Sort {
 
 
   //it's outside buffer from JCB, interface public always?
-  public static <T> void buffer(T[] target, int i, int j) {
+  private static <T> void buffer(T[] target, int i, int j) {
     T buffer = target[i];
     target[i] = target[j];
     target[j] = buffer;
@@ -21,7 +21,7 @@ public interface Sort {
     for (int i = 0; i < target.length; i++) {
       for (int j = 0; j < target.length - i - 1; j++) {
         if (comparator.compare(target[j], target[j + 1]) > 0) {
-          buffer(target,j, j + 1);
+          buffer(target, j, j + 1);
         }
       }
     }
